@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="380" height="250" viewBox="0 0 380 250">
+<style>.sans{font-family:-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif}.serif{font-family:Georgia,serif}
+.pop{opacity:0;transform:translateY(16px) skewX(-2deg);animation:pop .7s ease-out forwards}
+.d1{animation-delay:.2s}.d2{animation-delay:.4s}.d3{animation-delay:.6s}
+@keyframes pop{to{opacity:1;transform:none}}
+.bar{transform-origin:bottom;transform-box:fill-box;animation:grow 1s ease-out both}
+@keyframes grow{from{transform:scaleY(0)}to{transform:scaleY(1)}}
+@media (prefers-reduced-motion:reduce){.pop,.bar{animation:none;opacity:1;transform:none}}</style>
+<rect x="3" y="3" width="374" height="244" rx="18" fill="#FAF6EF" stroke="#1A1815" stroke-width="3"/>
+<rect x="3" y="3" width="374" height="44" rx="0" fill="#2E7CF6"/>
+<rect x="3" y="30" width="374" height="17" fill="#2E7CF6"/>
+<text x="20" y="32" font-size="20" font-weight="700" fill="#fff" class="sans pop d1">BUILD — coded</text>
+<text x="20" y="85" font-size="19" fill="#1A1815" class="sans pop">model-agnostic AI coding</text>
+<text x="20" y="108" font-size="19" fill="#1A1815" class="sans pop">assistant - TS - MIT</text>
+<g><rect x="20" y="124" width="150" height="30" rx="15" fill="#1A1815"/><text x="95" y="145" text-anchor="middle" font-size="15" fill="#fff" class="sans">terminal + desktop</text>
+<rect x="180" y="124" width="100" height="30" rx="15" fill="none" stroke="#1A1815" stroke-width="2"/><text x="230" y="145" text-anchor="middle" font-size="15" fill="#1A1815" class="sans">open-source</text></g>
+<g><rect x="30" y="190" width="28" height="30" rx="4" fill="#2E7CF6" opacity=".35" class="bar" style="animation-delay:.5s"/>
+<rect x="66" y="180" width="28" height="40" rx="4" fill="#2E7CF6" opacity=".55" class="bar" style="animation-delay:.6s"/>
+<rect x="102" y="168" width="28" height="52" rx="4" fill="#2E7CF6" opacity=".8" class="bar" style="animation-delay:.7s"/>
+<rect x="138" y="155" width="28" height="65" rx="4" fill="#2E7CF6" class="bar" style="animation-delay:.8s"/>
+<text x="190" y="205" font-size="16" fill="#6B6259" class="sans">Electron hardening</text>
+<text x="190" y="225" font-size="16" fill="#6B6259" class="sans">Faz-2 - PR active</text></g>
+</svg>
