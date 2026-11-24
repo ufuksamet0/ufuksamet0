@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="380" height="250" viewBox="0 0 380 250">
+<style>.sans{font-family:-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif}
+.pop{opacity:0;transform:translateY(16px);animation:pop .7s ease-out forwards}.d1{animation-delay:.4s}.d2{animation-delay:.6s}.d3{animation-delay:.8s}
+@keyframes pop{to{opacity:1;transform:none}}
+.tick{opacity:0;animation:pop .4s ease-out forwards}
+@media (prefers-reduced-motion:reduce){.pop,.tick{animation:none;opacity:1}}</style>
+<rect x="3" y="3" width="374" height="244" rx="18" fill="#FAF6EF" stroke="#1A1815" stroke-width="3"/>
+<rect x="3" y="3" width="374" height="44" rx="0" fill="#E8B306"/><rect x="3" y="30" width="374" height="17" fill="#E8B306"/>
+<text x="20" y="32" font-size="20" font-weight="700" fill="#1A1815" class="sans pop d1">LEARN — Rust / TS</text>
+<text x="20" y="82" font-size="18" fill="#1A1815" class="sans pop">TrainGit - Rust playground</text>
+<text x="20" y="106" font-size="18" fill="#1A1815" class="sans pop">BoxREA - TS experiments</text>
+<g font-size="17" class="sans">
+<text x="20" y="142" class="tick" style="animation-delay:.6s">backtest to paper to live</text>
+<text x="20" y="168" class="tick" style="animation-delay:.8s">API + frontend increments</text>
+<text x="20" y="194" class="tick" style="animation-delay:1s">docs + tests each step</text></g>
+<g class="pop d3"><rect x="20" y="208" width="110" height="26" rx="13" fill="#1A1815"/><text x="75" y="226" text-anchor="middle" font-size="14" fill="#fff" class="sans">Rust</text>
+<rect x="140" y="208" width="100" height="26" rx="13" fill="none" stroke="#1A1815" stroke-width="2"/><text x="190" y="226" text-anchor="middle" font-size="14" fill="#1A1815" class="sans">Python</text>
+<rect x="250" y="208" width="90" height="26" rx="13" fill="none" stroke="#1A1815" stroke-width="2"/><text x="295" y="226" text-anchor="middle" font-size="14" fill="#1A1815" class="sans">TS</text></g>
+</svg>
