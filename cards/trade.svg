@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="380" height="250" viewBox="0 0 380 250">
+<style>.sans{font-family:-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif}
+.pop{opacity:0;transform:translateY(16px);animation:pop .7s ease-out forwards}.d1{animation-delay:.3s}.d2{animation-delay:.5s}.d3{animation-delay:.7s}
+@keyframes pop{to{opacity:1;transform:none}}
+.line{stroke-dasharray:300;stroke-dashoffset:300;animation:draw 1.6s ease-out .5s forwards}
+@keyframes draw{to{stroke-dashoffset:0}}
+@media (prefers-reduced-motion:reduce){.pop,.line{animation:none;opacity:1;stroke-dashoffset:0}}</style>
+<rect x="3" y="3" width="374" height="244" rx="18" fill="#FAF6EF" stroke="#1A1815" stroke-width="3"/>
+<rect x="3" y="3" width="374" height="44" rx="0" fill="#E4572E"/><rect x="3" y="30" width="374" height="17" fill="#E4572E"/>
+<text x="20" y="32" font-size="20" font-weight="700" fill="#fff" class="sans pop d1">TRADE — CoinTrade</text>
+<text x="20" y="85" font-size="19" fill="#1A1815" class="sans pop">LLM-assisted trading bot</text>
+<text x="20" y="108" font-size="19" fill="#1A1815" class="sans pop">Python - backtest + paper/live</text>
+<polyline points="20,150 70,145 110,155 150,132 190,138 230,118 270,124 320,100 355,108" fill="none" stroke="#E4572E" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" class="line"/>
+<circle cx="355" cy="108" r="7" fill="#E4572E" class="pop d3"/>
+<g class="pop d2"><rect x="20" y="175" width="130" height="30" rx="15" fill="#1A1815"/><text x="85" y="196" text-anchor="middle" font-size="15" fill="#fff" class="sans">41KB dashboard</text>
+<rect x="160" y="175" width="110" height="30" rx="15" fill="none" stroke="#1A1815" stroke-width="2"/><text x="215" y="196" text-anchor="middle" font-size="15" fill="#1A1815" class="sans">broker ready</text></g>
+<text x="20" y="228" font-size="15" fill="#6B6259" class="sans pop d3">docs + tests - small increments</text>
+</svg>
